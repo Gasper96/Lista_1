@@ -1,0 +1,9 @@
+c = 1
+som = 0
+while c <= 4:
+    n = float(input('forneça a nota:'))
+    som = n + som
+    med = som / 4
+    c += 1
+
+print('a média das notas é:', med)
