@@ -1,0 +1,9 @@
+sex = str(input('Digite (h) para homens e (m) para mulheres:'))
+a = float(input('forneça a altura:'))
+
+if sex == 'h':
+    peso = (a * 72.7) - 58
+if sex == 'm':
+    peso = (a * 62.1) - 44.7
+
+print('o peso ideal para essa altura é:', peso)
