@@ -1,0 +1,12 @@
+tam = int(input('forneça o tamanho do arquivo em MB:'))
+vel = int(input('forneça a velocidade de internete em MBps:'))
+
+c = 0
+min = 0
+vepm = vel * 60
+
+while c <= tam:
+    min += 1
+    c = c + vepm
+
+print('você terá que esperar aproximadamente',min,'minutos.')
