@@ -1,0 +1,16 @@
+    import math
+
+    m = int(input('forneça a área em metros quadrados:'))
+
+    lt2 = m / 6
+    lt = m / 3
+    qts = lt / 18
+    qts2 = lt2 / 3.6
+    val = math.ceil(qts) * 80
+    val2 = math.ceil(qts2) * 25
+
+
+
+    print('você deverá comprar',math.ceil(qts),'galões de tinta de 18l','\n','que custará:',val)
+    print('você deverá comprar',math.ceil(qts2),'galões de tinta de 3.6l','\n','que custará',val2)
+    print
