@@ -1,0 +1,3 @@
+n = float(input('quanto é sua remuneração por hora de trabalho?'))
+h = float(input('quantas horas de trabalho voce fez no mes?'))
+print('voce deverá receber:',(n * h))
