@@ -1,0 +1,11 @@
+n1 = int(input('forneça um valor inteiro:'))
+n2 = int(input('forneça um valor inteiro:'))
+n3 = float(input('forneça um valor:'))
+
+q1 = (n1 * 2) * (n2 / 2)
+q2 = (n1 * 3) + n3
+q3 = (n3 * n3) * n3
+
+print('o produto do dobro do priemiro com a metade do segundo valor é:', q1)
+print('a soma do triplo do primeiro com o terceiro valor é:', q2)
+print('a raiz cubica do terceiro valor é:', q3)
