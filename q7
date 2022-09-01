@@ -1,0 +1,3 @@
+n = float(input('forneça o comprimento de um lado do quadrado:'))
+a = (n * n) * 2
+print('o dobro da área do quadrado é:', a)
