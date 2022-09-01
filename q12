@@ -1,0 +1,3 @@
+a = float(input('forneça a altura:'))
+peso = (a * 72.7) - 58
+print('o peso ideal para essa altura é:', peso)
