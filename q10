@@ -1,0 +1,3 @@
+c = int(input('forneça a temperatura em Celsius:'))
+f = (1.8 * c) + 32
+print('isso em Fahrenheit equivale à:', f)
