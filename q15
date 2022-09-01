@@ -1,0 +1,13 @@
+n = float(input('Quanto você recebe por hora trabalhada?'))
+h = float(input('você trabalhou quantas horas nesse mês?'))
+
+sal = n * h
+impr = sal * 0.11
+inss = sal * 0.08
+sindc = sal * 0.05
+
+print('seu salário bruto é:', sal)
+print('Você deverá pagar:',inss,'ao INSS.')
+print('Você deverá pagar:',sindc,'ao sindicato.')
+print('Total de descontos:',(inss + sindc + impr))
+print('seu salário final é:',(sal - inss - impr - sindc))
