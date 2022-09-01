@@ -1,0 +1,3 @@
+f = int(input('forneça a temperatura em Fahrenheit:'))
+c = 5 * ((f - 32) / 9)
+print('isso em Celsius equivale à:', c)
