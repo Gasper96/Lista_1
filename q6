@@ -1,0 +1,3 @@
+r = float(input('forneça o comprimento do raio:'))
+area = (r ** 2) * 3.14
+print("a área desse círculo é:", area)
