@@ -1,0 +1,4 @@
+n = int(input('forneça um número:'))
+a = int(input('forneça outro número'))
+
+print('a soma dos valores é:', (n + a))
