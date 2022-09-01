@@ -1,0 +1,9 @@
+kg = float(input('forneça o peso da carga de peixes:'))
+excesso = 0
+multa = 0
+
+if kg > 50:
+    excesso = kg - 50
+    multa = excesso * 4.00
+
+print('voce excedeu:',excesso,'kg do regulamento de pesca de SP, deverá pagar:',multa,'R$ de multa.')
